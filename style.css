@@ -1,0 +1,77 @@
+/* Selector universal */
+
+*
+{
+    /* Color de fondo */
+    /* background-color: aqua; */
+
+    /* Color de texto */
+    /* color: brown; */
+}
+
+h1
+{
+    color: #0D5C63;
+}
+
+h2{
+    color: #BEDCFE;
+}
+
+h3
+{
+    color: #B6D094;
+}
+
+/* De clase */
+
+.serif
+{
+    /* Modificar la tipografía */
+    font-family: sans-serif;
+
+    /* Tamannio */
+    font-size: medium;
+
+    /* Peso */
+    font-weight: 900;
+
+    /* Alineación */
+    text-align: center;
+}
+
+#rosa
+{
+    color: palevioletred;
+}
+
+#link
+{
+    text-align: center;
+    font-style: oblique;
+}
+
+/* Medida de queries (medida de diferentes dispositivos */
+
+@media only screen and (max-width: 600px)
+{
+    body
+    {
+        background-color: red;
+    }
+
+    p
+    {
+        color: yellow;
+    }
+}
+
+
+img, video
+{
+    /* Ancho */
+    width: 400px;
+
+    /* Altura */
+    
+}
